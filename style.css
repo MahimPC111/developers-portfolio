@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 43px;
 }
 
 .orange {
@@ -15,17 +15,57 @@ p {
     text-align: justify;
 }
 
-section {
+.flex {
     display: flex;
+    margin-bottom: 150px;
 }
 
-.half-width {
+.half-width1 {
     width: 50%;
     padding-left: 5%;
 }
 
-.half-width img {
-    width: 75%;
+.half-width2 {
+    width: 50%;
+    padding-left: 25%;
+}
+
+.half-width3 {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width4 {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width5 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(151, 151, 11);
+    border-left: 7px solid rgb(185, 1, 1);
+}
+
+.half-width6 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(151, 151, 11);
+    border-left: 7px solid rgb(30, 14, 170);
+}
+
+.half-width2 img {
+    width: 80%;
+}
+
+.half-width3 img {
+    width: 70%;
 }
 
 .button {
@@ -40,4 +80,24 @@ section {
 .banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.half-width img {
+    width: 75%;
+}
+
+.dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#color {
+    color: darkgreen;
 }
