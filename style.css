@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange {
+    color: rgb(228, 89, 38);
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 75%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 101, 101), rgb(230, 174, 92));
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
